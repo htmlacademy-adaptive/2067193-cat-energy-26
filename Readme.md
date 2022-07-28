@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Anna Semenova](https://up.htmlacademy.ru/adaptive/26/user/2067193).
-* Наставник: `Неизвестно`.
+* Наставник: [`Alex Elkin`].
 
 ---
 
