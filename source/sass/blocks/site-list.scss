@@ -1,14 +1,28 @@
-.site-list{
-
+.site-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
 .site-list__item {
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
 }
 
 .site-list__link {
-  &:active {
+  color: inherit;
+  text-transform: uppercase;
 
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &::after {
+    opacity: 0.3;
   }
 }
 

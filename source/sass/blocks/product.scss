@@ -1,5 +1,5 @@
 .product {
-
+  background-color: #ffffff;
 }
 
 .product__wrapper {
@@ -11,7 +11,9 @@
 }
 
 .product__title {
-
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
 }
 
 .product__title-br {
@@ -22,16 +24,33 @@
 
 }
 
-.product__desc-container{}
+.product__desc-container {
+
+}
 
 .product__item {
-
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product__value {
-
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product__button {
-
+  background-color: #68B738;
+  height: 40px;
+  width: 280px;
+  border-radius: 0px;
 }
