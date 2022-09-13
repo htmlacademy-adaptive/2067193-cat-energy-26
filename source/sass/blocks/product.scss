@@ -1,14 +1,17 @@
 .product {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.product__wrapper {
+// .product__wrapper {
 
-}
+// }
 
-.product__img {
+// .product__img {
 
-}
+// }
 
 .product__title {
   font-size: 16px;
@@ -16,20 +19,20 @@
   color: #222222;
 }
 
-.product__title-br {
+// .product__title-br {
 
-}
+// }
 
-.product__desc {
+// .product__desc {
 
-}
+// }
 
-.product__desc-container {
+// .product__desc-container {
 
-}
+// }
 
 .product__item {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -39,7 +42,7 @@
 }
 
 .product__value {
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -49,8 +52,8 @@
 }
 
 .product__button {
-  background-color: #68B738;
+  background-color: #68b738;
   height: 40px;
   width: 280px;
-  border-radius: 0px;
+  border-radius: 0;
 }

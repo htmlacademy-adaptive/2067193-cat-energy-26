@@ -1,13 +1,14 @@
 .catalog {
-
+  display: flex;
+  flex-direction: column;
 }
 
-.catalog__header {
+// .catalog__header {
 
-}
+// }
 
 .catalog__title {
-  font-family: 'Oswald';
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -15,6 +16,6 @@
   color: #000000;
 }
 
-.catalog__wrapper {
+// .catalog__wrapper {
 
-}
+// }

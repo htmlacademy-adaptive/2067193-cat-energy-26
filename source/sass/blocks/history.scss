@@ -1,60 +1,91 @@
 .history {
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
+  text-align: left;
 }
 
-.history__wrapper {
+// .history__wrapper {
 
-}
+// }
 
 .history__title {
-
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
 }
 
-.history__text-container {
+// .history__text-container {
 
-}
+// }
 
 .history__desc {
-
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
 }
 
-.history__list-wrapper {
+// .history__list-wrapper {
 
+// }
+
+// .history__list {
+
+// }
+
+// .history__item {
+
+// }
+
+.history__item-number {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
 }
 
-.history__list {
-
-}
-
-.history__item {
-  .history__item-number {
-
-  }
-  .history__item-desc {
-
-  }
+.history__item-desc {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #444444;
 }
 
 .history__spending {
-
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-.history__widget {
+// .history__widget {
 
-}
+// }
 
-.history__picture-wrapper {
+// .history__picture-wrapper {
 
-}
+// }
 
-.history__widget-wrapper {
-  .history__input-before {
+// .history__widget-wrapper {
 
-  }
-}
+// }
 
-.history__input {
-  .history__input-after {
+// .history__input {
 
-  }
-}
+// }
