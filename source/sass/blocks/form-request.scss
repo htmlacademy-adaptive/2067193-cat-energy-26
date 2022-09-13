@@ -1,19 +1,41 @@
-// .form-request {
+.form-request {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: #ffffff;
+}
 
-// }
+.form-request__fieldest {
+  margin: 0;
+  padding: 0;
+}
 
-// .form-request__fieldest {
-
-// }
-
-// .form-request__button {
-
-// }
+.form-request__button {
+  border: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 
 // .form-request__wrapper {
 
 // }
 
-// .form-request__text {
-
-// }
+.form-request__text {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}

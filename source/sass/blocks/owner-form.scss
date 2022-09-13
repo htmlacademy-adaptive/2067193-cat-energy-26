@@ -1,19 +1,37 @@
-// .owner-form {
+.owner-form {
+  margin: 0;
+  padding: 0;
+}
 
-// }
-
-// .owner-form__title {
-
-// }
+.owner-form__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
 
 // .owner-form__item {
 
 // }
 
-// .owner-form__label {
+.owner-form__label {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
 
-// }
-
-// .owner-form__input {
-
-// }
+.owner-form__input {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
