@@ -1,8 +1,8 @@
 .product {
   background-color: #ffffff;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 // .product__wrapper {
@@ -55,5 +55,18 @@
   background-color: #68b738;
   height: 40px;
   width: 280px;
+  margin: 13px 20px 25px 20px;
   border-radius: 0;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }

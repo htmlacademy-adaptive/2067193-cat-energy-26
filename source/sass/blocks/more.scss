@@ -1,6 +1,6 @@
-// .more {
-
-// }
+.more {
+  background-color: #ffffff;
+}
 
 // .more__wrapper
 
@@ -8,8 +8,43 @@
 
 // }
 
-// .more__title
+.more__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+}
 
-// .more__desc
+.more__desc {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}
 
-// .more__button
+.more__button {
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 280px;
+  margin: 13px 20px 25px 20px;
+  border-radius: 0;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #444444;
+}
