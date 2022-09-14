@@ -1,0 +1,50 @@
+.add-form {
+  margin: 0;
+  padding: 0;
+}
+
+.add-form__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.add-form__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// .add-form__item {
+//   display: flex;
+// }
+
+.add-form__label {
+  display: flex;
+}
+
+// .add-form__input {
+
+// }
+
+// .add-form__input-mark {
+
+// }
+
+.add-form__input-text {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}

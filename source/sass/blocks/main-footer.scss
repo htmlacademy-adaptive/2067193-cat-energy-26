@@ -1,0 +1,63 @@
+.main-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.main-footer__wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer__partnership {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 26px 20px;
+}
+
+.main-footer__partnership-desc {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer__address {
+  display: flex;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+  margin: 0;
+  margin-left: 2px;
+  padding: 0;
+}
+
+.main-footer__street {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-footer__city {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// .main-footer__map {
+
+// }
+
+// .main-footer__map-link {
+
+// }

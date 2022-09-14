@@ -1,0 +1,66 @@
+.desc {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+// .desc__wrapper {
+
+// }
+
+.desc__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.desc__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desc__item {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+// .desc__item--functional::before {
+//   width: 60px;
+//   height: 60px;
+//   background-color: #68b738;
+//   border-radius: 0;
+//   border: 0;
+// }
+
+// .desc__item--water::before {
+//   width: 60px;
+//   height: 60px;
+//   background-color: #68b738;
+//   border-radius: 0;
+//   border: 0;
+// }
+
+// .desc__item--food::before {
+//   width: 60px;
+//   height: 60px;
+//   background-color: #68b738;
+//   border-radius: 0;
+//   border: 0;
+// }
+
+// .desc__item--time::before {
+//   width: 60px;
+//   height: 60px;
+//   background-color: #68b738;
+//   border-radius: 0;
+//   border: 0;
+//   content: url("/source/img/decor/how-period.png");
+// }

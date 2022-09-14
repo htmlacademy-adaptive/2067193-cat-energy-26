@@ -1,0 +1,63 @@
+.motivation {
+  display: flex;
+  background-color: #ffffff;
+}
+
+// .motivation__wrapper {
+
+// }
+
+.motivation__header {
+  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../img/decor/motivation-background.png");
+  background-repeat: no-repeat;
+  min-height: 302px;
+}
+
+.motivation__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 25px;
+}
+
+.motivation__intro {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.motivation__image {
+  margin-top: 29px;
+}
+
+.motivation__button {
+  background-color: #68b738;
+  height: 40px;
+  width: 280px;
+  border-radius: 0;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 3px 20px 20px 20px;
+}
