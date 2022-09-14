@@ -3,14 +3,22 @@
   background-color: #ffffff;
 }
 
-// .motivation__wrapper {
-
-// }
-
 .motivation__header {
   background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../img/decor/motivation-background.png");
   background-repeat: no-repeat;
   min-height: 302px;
+}
+
+@media (min-width: $tablet-width) {
+  .motivation__header {
+    background: #ffffff;
+    background-image: none;
+    color: #000000;
+    text-align: left;
+    max-width: 414px;
+    margin-left: 117px;
+    min-height: auto;
+  }
 }
 
 .motivation__title {
@@ -26,6 +34,22 @@
   padding-bottom: 25px;
 }
 
+@media (min-width: $tablet-width) {
+  .motivation__title {
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .motivation__title {
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+  }
+}
+
 .motivation__intro {
   font-family: "Oswald", sans-serif;
   font-style: normal;
@@ -38,8 +62,37 @@
   margin: 0;
 }
 
+@media (min-width: $tablet-width) {
+  .motivation__intro {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .motivation__intro {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+}
+
 .motivation__image {
   margin-top: 29px;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .motivation__image {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .motivation__image {
+    margin-top: 42px;
+  }
 }
 
 .motivation__button {
@@ -60,4 +113,24 @@
   text-transform: uppercase;
   color: #ffffff;
   margin: 3px 20px 20px 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .motivation__button {
+    height: 54px;
+    width: 244px;
+    font-size: 20px;
+    margin-top: 29px;
+    margin-left: 91px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .motivation__button {
+    height: 54px;
+    width: 244px;
+    font-size: 20px;
+    margin-top: 52px;
+    margin-left: 190px;
+  }
 }

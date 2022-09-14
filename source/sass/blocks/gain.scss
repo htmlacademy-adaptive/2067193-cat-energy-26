@@ -12,14 +12,16 @@
   line-height: 37px;
   color: #000000;
   text-transform: uppercase;
+  display: flex;
 }
 
 .gain__title::before {
   content: "";
-  background-image: url("/source/img/decor/cat-weigths.png");
+  background-image: url("../img/decor/cat-weigths.svg");
   background-repeat: no-repeat;
-  width: 50px;
-  height: 53px;
+  width: 67px;
+  height: 50px;
+  display: block;
 }
 
 .gain__description {
@@ -41,4 +43,15 @@
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+}
+
+.gain__link::after {
+  content: "";
+  background-image: url("../img/decor/arrow-right.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 12px;
+  display: block;
 }

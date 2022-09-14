@@ -30,37 +30,60 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  display: flex;
+  margin: 0;
+  margin-left: 20px;
 }
 
-// .desc__item--functional::before {
-//   width: 60px;
-//   height: 60px;
-//   background-color: #68b738;
-//   border-radius: 0;
-//   border: 0;
-// }
+.desc__item--functional::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  border-radius: 0;
+  border: 0;
+  display: block;
+  background-image: url("../img/decor/how-list.svg");
+  background-repeat: no-repeat;
+  padding-top: 16px;
+  background-position: center;
+}
 
-// .desc__item--water::before {
-//   width: 60px;
-//   height: 60px;
-//   background-color: #68b738;
-//   border-radius: 0;
-//   border: 0;
-// }
+.desc__item--water::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  border-radius: 0;
+  border: 0;
+  display: block;
+  background-image: url("../img/decor/how-water.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-// .desc__item--food::before {
-//   width: 60px;
-//   height: 60px;
-//   background-color: #68b738;
-//   border-radius: 0;
-//   border: 0;
-// }
+.desc__item--food::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  border-radius: 0;
+  border: 0;
+  display: block;
+  background-image: url("../img/decor/how-eat.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-// .desc__item--time::before {
-//   width: 60px;
-//   height: 60px;
-//   background-color: #68b738;
-//   border-radius: 0;
-//   border: 0;
-//   content: url("/source/img/decor/how-period.png");
-// }
+.desc__item--time::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  border-radius: 0;
+  border: 0;
+  display: block;
+  background-image: url("../img/decor/how-period.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
