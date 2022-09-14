@@ -1,5 +1,7 @@
 .slim {
   background-color: #f2f2f2;
+  margin: 20px;
+  width: auto;
 }
 
 .slim__title {
@@ -10,6 +12,14 @@
   line-height: 37px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.slim__title::before {
+  content: "";
+  background-image: url("../../img/decor/cat-slim.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 53px;
 }
 
 .slim__description {
@@ -31,4 +41,5 @@
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }

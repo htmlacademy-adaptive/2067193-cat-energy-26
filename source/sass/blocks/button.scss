@@ -1,7 +1,5 @@
 .button {
   background-color: #68b738;
-  height: 40px;
-  width: 280px;
   border-radius: 0;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
@@ -15,4 +13,6 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0;
+  display: block;
 }

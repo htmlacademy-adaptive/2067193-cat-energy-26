@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-list__item {
@@ -11,11 +14,19 @@
   font-size: 20px;
   line-height: 20px;
   text-decoration: none;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  // margin-top: 22px;
+  // margin-bottom: 24px;
 }
 
 .site-list__link {
   color: inherit;
   text-transform: uppercase;
+  text-decoration: none;
 
   &:hover {
     opacity: 0.6;
