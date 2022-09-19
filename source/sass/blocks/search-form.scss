@@ -7,6 +7,16 @@
   border: 0;
   margin: 0 20px;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    margin: 0 69px;
+    margin-bottom: 72px;
+  }
+
+  @media (min-width: 1440px) {
+    margin: 0 110px;
+    margin-bottom: 69px;
+  }
 }
 
 .search-form__item {
@@ -16,6 +26,10 @@
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
+
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
 }
 
 .search-form__item:first-of-type {
@@ -33,6 +47,13 @@
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
 }
 
 .search-form__text {
@@ -52,6 +73,17 @@
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 19px;
+    margin-left: 14px;
+    width: 100%;
+  }
 }
 
 .search-form__number {

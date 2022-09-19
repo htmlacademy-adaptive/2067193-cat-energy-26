@@ -1,23 +1,35 @@
 .social {
   margin: 0;
-  margin-top: 39px;
   padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .social__list {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 0;
+  margin: 22px 0;
 }
 
-// .social__item {
+.social__item {
+  margin-left: 30px;
+}
 
-// }
+.social__item:first-of-type {
+  margin-left: 0;
+}
 
-// .social__link {
+.social__link {
+  display: flex;
+}
+
 //   .social__link--vk {
 
 //   }
@@ -33,10 +45,10 @@
 
 // }
 
-.social__icon-youtube {
+// .social__icon-youtube {
 
-}
+// }
 
-.social__icon-telegram {
+// .social__icon-telegram {
 
-}
+// }

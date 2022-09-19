@@ -1,13 +1,25 @@
 .copyright {
-  display: flex;
   margin: 0;
-  padding: 0 19px;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #f2f2f2;
 }
 
 .copyright__link {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 0;
+  margin: 22px 0;
+}
+
+.copyright__text {
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -16,10 +28,6 @@
   color: #444444;
   text-decoration: none;
 }
-
-// .copyright__text {
-
-// }
 
 // .copyright__logo {
 

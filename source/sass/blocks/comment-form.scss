@@ -15,6 +15,12 @@
   color: #000000;
   margin: 0;
   margin-left: 20px;
+
+  @media (min-width: 768px) {
+    margin-left: 69px;
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .comment-form__textarea {

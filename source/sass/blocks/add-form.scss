@@ -5,6 +5,11 @@
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
+
+  // @media (min-width: 768px) {
+
+
+  // }
 }
 
 .add-form__title {
@@ -54,14 +59,14 @@
   background-color: #ffffff;
 }
 
-.add-form__input-mark + .add-form__label::before {
+.add-form__input + .add-form__label::before {
   position: absolute;
   content: "";
   top: 0;
   left: 10px;
 }
 
-.add-form__input-mark:checked + .add-form__label::after {
+.add-form__input:checked + .add-form__label::after {
   display: inline-block;
   position: absolute;
   content: "";
