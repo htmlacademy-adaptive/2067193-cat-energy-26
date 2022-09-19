@@ -1,5 +1,10 @@
 .add-product {
   margin: 0 20px;
+  border-top: 1px solid #cdcdcd;
+}
+
+.add-product:last-of-type {
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .add-product__title {
@@ -13,11 +18,13 @@
   text-align: center;
   text-transform: uppercase;
   color: #222222;
+  margin-top: 13px;
 }
 
 .add-product__list {
   display: flex;
   justify-content: space-between;
+  margin-top: 13px;
 }
 
 .add-product__item {
@@ -46,8 +53,6 @@
 
 .add-product__button {
   background-color: #68b738;
-  height: 40px;
-  width: 280px;
   border-radius: 0;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
@@ -62,4 +67,5 @@
   text-transform: uppercase;
   color: #ffffff;
   margin: 15px 0 19px 0;
+  padding: 10px 109px;
 }

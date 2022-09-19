@@ -3,9 +3,10 @@
   flex-direction: column;
 }
 
-// .catalog__header {
-
-// }
+.catalog__header {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
 
 .catalog__title {
   font-family: "Oswald", sans-serif;
@@ -14,8 +15,13 @@
   font-size: 36px;
   line-height: 36px;
   color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 27px;
+  margin-bottom: 41px;
 }
 
 // .catalog__wrapper {
-
+//   margin-left: 20px;
+//   margin-right: 20px;
 // }
