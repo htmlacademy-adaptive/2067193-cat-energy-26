@@ -8,13 +8,13 @@
   flex-direction: column;
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: 768px) {
   .site-list {
     width: 440px;
   }
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: 1440px) {
   .site-list {
     width: 478px;
   }
@@ -36,7 +36,7 @@
   // margin-bottom: 24px;
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: 768px) {
   .site-list__item {
     font-style: normal;
     font-weight: 400;
@@ -47,7 +47,7 @@
   }
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: 1440px) {
   .site-list__item {
     font-style: normal;
     font-weight: 400;

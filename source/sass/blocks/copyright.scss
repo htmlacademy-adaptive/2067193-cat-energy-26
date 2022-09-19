@@ -2,6 +2,9 @@
   display: flex;
   margin: 0;
   padding: 0 19px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f2f2f2;
 }
 
 .copyright__link {

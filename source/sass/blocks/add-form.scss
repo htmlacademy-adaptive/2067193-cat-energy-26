@@ -1,6 +1,10 @@
 .add-form {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .add-form__title {
@@ -10,6 +14,9 @@
   font-size: 24px;
   line-height: 26px;
   color: #000000;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 34px;
 }
 
 .add-form__list {
@@ -18,21 +25,54 @@
   padding: 0;
 }
 
-// .add-form__item {
-//   display: flex;
-// }
+.add-form__item {
+  display: flex;
+  position: relative;
+  margin-top: 12px;
+}
+
+.add-form__item:first-of-type {
+  margin-top: 0;
+}
 
 .add-form__label {
   display: flex;
 }
 
-// .add-form__input {
+.add-form__input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  margin-left: 20px;
+}
 
-// }
+.add-form__input-mark {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  border: 1px solid #cdcdcd;
+  background-color: #ffffff;
+}
 
-// .add-form__input-mark {
+.add-form__input-mark + .add-form__label::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 10px;
+}
 
-// }
+.add-form__input-mark:checked + .add-form__label::after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 14px;
+  background-image: url("../../img/decor/checked.svg");
+  background-color: #ffffff;
+  top: 10px;
+  left: 19px;
+  z-index: 5;
+}
 
 .add-form__input-text {
   font-family: "Oswald", sans-serif;
@@ -44,7 +84,7 @@
   align-items: center;
   text-transform: uppercase;
   color: #000000;
-  margin-left: 13px;
-  margin-bottom: 12px;
-  margin-top: 12px;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }

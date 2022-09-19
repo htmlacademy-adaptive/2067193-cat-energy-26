@@ -7,21 +7,15 @@
 
 .page-header__logo {
   text-decoration: none;
-}
 
-@media (min-width: $tablet-width) {
-  .page-header__logo {
+  @media (min-width: 768px) {
     order: 2;
     height: 52px;
     display: block;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .page-header__logo {
-    order: 2;
+  @media (min-width: 1440px) {
     height: 59px;
-    display: block;
   }
 }
 
