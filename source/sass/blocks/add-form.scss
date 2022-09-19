@@ -22,18 +22,49 @@
   margin: 0;
   margin-left: 20px;
   margin-bottom: 34px;
+
+  @media (min-width: 768px) {
+    margin-left: 69px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-left: 110px;
+  }
 }
 
 .add-form__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 57px;
+    grid-row-gap: 42px;
+    margin-left: 69px;
+    margin-right: 69px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-left: 110px;
+    margin-right: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .add-form__item {
   display: flex;
   position: relative;
   margin-top: 12px;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
 }
 
 .add-form__item:first-of-type {
@@ -49,6 +80,10 @@
   opacity: 0;
   z-index: -1;
   margin-left: 20px;
+
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
 }
 
 .add-form__input-mark {
@@ -57,6 +92,12 @@
   margin-left: 20px;
   border: 1px solid #cdcdcd;
   background-color: #ffffff;
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+  }
 }
 
 .add-form__input + .add-form__label::before {
@@ -92,4 +133,10 @@
   margin-left: 16px;
   margin-top: 6px;
   margin-bottom: 6px;
+
+  @media (min-width: 768px) {
+    margin-left: 19px;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

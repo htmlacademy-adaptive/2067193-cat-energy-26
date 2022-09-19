@@ -7,13 +7,22 @@
   border-bottom: 1px solid #d9d9d9;
 
   @media (min-width: 768px) {
-    margin-top: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
   }
 }
 
-// .footer-logo__link {
-
-// }
+.footer-logo__link {
+  @media (min-width: 768px) {
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
 
 // .footer-logo__icon {
 
