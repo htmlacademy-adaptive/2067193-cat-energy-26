@@ -1,12 +1,19 @@
 .more {
   background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
 }
 
 // .more__wrapper
 
-// .more__image-link {
-
-// }
+.more__image-link {
+  margin-top: 25px;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-basis: 50%;
+  text-align: center;
+}
 
 .more__title {
   font-family: "Oswald", sans-serif;
@@ -17,6 +24,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #111111;
+  margin-top: 23px;
 }
 
 .more__desc {
@@ -27,6 +35,7 @@
   line-height: 16px;
   text-align: center;
   color: #444444;
+  margin-top: 8px;
 }
 
 .more__button {

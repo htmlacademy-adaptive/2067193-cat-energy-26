@@ -12,14 +12,28 @@
   line-height: 37px;
   color: #000000;
   text-transform: uppercase;
+  display: flex;
+  margin-top: 30px;
+  padding-left: 91px;
 }
+
+// @media (min-width: $tablet-width) {
+//   padding-left: 53px;
+//   padding-top: 77px;
+// }
+
+// @media (min-width: $decktop-width) {
+//   padding-top: 77px;
+//   padding-left: 214px;
+// }
 
 .slim__title::before {
   content: "";
-  background-image: url("../../img/decor/cat-slim.png");
+  background-image: url("../img/decor/cat-slim.svg");
   background-repeat: no-repeat;
   width: 50px;
   height: 53px;
+  display: block;
 }
 
 .slim__description {
@@ -42,4 +56,14 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+}
+
+.slim__link::after {
+  content: "";
+  background-image: url("../img/decor/arrow-right.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 12px;
+  display: block;
 }

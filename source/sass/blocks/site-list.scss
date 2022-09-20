@@ -8,8 +8,21 @@
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .site-list {
+    width: 440px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .site-list {
+    width: 478px;
+  }
+}
+
 .site-list__item {
   font-family: "Oswald", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -21,6 +34,28 @@
   text-align: center;
   // margin-top: 22px;
   // margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .site-list__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+
+@media (min-width: 1440px) {
+  .site-list__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
 
 .site-list__link {

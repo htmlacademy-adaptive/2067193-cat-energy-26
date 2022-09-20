@@ -12,6 +12,26 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-  text-align: center;
   color: #000000;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 36px;
+
+  @media (min-width: 768px) {
+    margin-left: 67px;
+    margin-right: 67px;
+    margin-top: 68px;
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+.additional_container {
+  @media (min-width: 768px) {
+    border: 1px solid #cdcdcd;
+    margin: 0 30px;
+    min-width: 708px;
+  }
 }

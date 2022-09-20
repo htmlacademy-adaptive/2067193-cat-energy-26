@@ -1,13 +1,23 @@
-// .page {}
+.page {
+  height: 100%;
+}
 
 .page__body {
+  min-height: 100%;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   background-color: #ffffff;
-  max-width: 1440px;
-  margin: 0 auto;
+  // max-width: 1440px;
+  // margin: 0 auto;
+  max-width: 100%; /*тогда серый фон растягивается*/
+  margin: 0; /*тогда серый фон растягивается*/
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 1440px) {
+    margin: 0;
+    max-width: 1440px;
+  }
 }
