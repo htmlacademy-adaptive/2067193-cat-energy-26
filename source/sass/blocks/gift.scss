@@ -7,6 +7,12 @@
   margin: 35px 20px;
   background-color: rgba(104, 183, 56, 0.85);
   height: 280px;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    height: 200px;
+    margin: 76px 30px;
+  }
 }
 
 .gift__desc {
@@ -21,6 +27,13 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 124px;
+  }
 }
 
 .gift__desc::before {
